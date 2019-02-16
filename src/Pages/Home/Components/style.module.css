@@ -131,3 +131,23 @@
     margin-left: 16px;
     margin-right: 16px;
 }
+
+.extrasWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.extrasText {
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 48px;
+}
+
+.featureExtras .sectionTitle {
+    margin-top: 0;
+}
+
+.featureExtras {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}

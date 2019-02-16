@@ -7,6 +7,7 @@ import Interests from './Components/Interests';
 import Communities from './Components/Communities';
 import Contests from './Components/Contests';
 import CTA from './Components/CTA';
+import Extras from './Components/Extras';
 
 class Home extends PureComponent {
     render() {
@@ -18,7 +19,7 @@ class Home extends PureComponent {
                 <Communities />
                 <Contests />
                 <CTA />
-                I'm from main
+                <Extras />
             </main>
         );
     }
