@@ -51,11 +51,12 @@
     color: rgba(0, 0, 0, 0.7);
     position: relative;
     z-index: 2;
+    line-height: 30px;
 }
 
 .sectionAbout {
     margin-top: 160px;
-    margin-bottom: 160px;
+    margin-bottom: 280px;
 }
 
 .aboutDeco {
@@ -67,4 +68,36 @@
     z-index: 1;
     top: -80px;
     left: -104px;
+}
+
+.featureSection {
+    margin-top: 48px;
+}
+
+.featureWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featureText {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.featureType {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.featureTypeDeco {
+    height: 2px;
+    width: 64px;
+    background-color: black;
+    margin-right: 24px;
 }
