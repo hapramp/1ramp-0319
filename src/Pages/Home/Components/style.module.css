@@ -101,3 +101,33 @@
     background-color: black;
     margin-right: 24px;
 }
+
+.sectionCTA {
+    background-color: #F71555;
+    color: white;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.CTATitle {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.CTAText {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.CTAIcons {
+    font-size: 64px;
+    margin-top: 32px;
+}
+
+.CTAIcons > a {
+    margin-left: 16px;
+    margin-right: 16px;
+}

@@ -6,6 +6,7 @@ import About from './Components/About';
 import Interests from './Components/Interests';
 import Communities from './Components/Communities';
 import Contests from './Components/Contests';
+import CTA from './Components/CTA';
 
 class Home extends PureComponent {
     render() {
@@ -16,6 +17,7 @@ class Home extends PureComponent {
                 <Interests />
                 <Communities />
                 <Contests />
+                <CTA />
                 I'm from main
             </main>
         );
