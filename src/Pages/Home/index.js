@@ -4,6 +4,7 @@ import style from './style.module.css';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Interests from './Components/Interests';
+import Communities from './Components/Communities';
 
 class Home extends PureComponent {
     render() {
@@ -12,6 +13,7 @@ class Home extends PureComponent {
                 <Hero />
                 <About />
                 <Interests />
+                <Communities />
                 I'm from main
             </main>
         );
