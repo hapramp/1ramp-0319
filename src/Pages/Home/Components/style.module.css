@@ -1,0 +1,32 @@
+.heroWrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroMeta {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroTitle {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.heroText {
+    font-size: 21px;
+    color: hsla(0, 0%, 0%, 0.7);
+    line-height: 30px;
+}
+
+.heroCta {
+    font-size: 64px;
+    margin-top: 48px;
+}
+
+.heroCta >a:first-child {
+    margin-right: 56px;
+}
