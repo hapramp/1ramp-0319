@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import style from './style.module.css';
 
-import featureImage1 from './static/img/featureImage1.png';
+import featureImage1 from './static/img/featureImage3.gif';
 
 export default class Contests extends Component {
     render() {

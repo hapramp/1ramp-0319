@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import style from './style.module.css'
 
-import heroImage from './static/img/heroImage.png';
+import heroImage from './static/img/heroImage.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChrome, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 

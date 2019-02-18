@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import style from './style.module.css';
 
-import featureImage2 from './static/img/featureImage2.png';
+import featureImage2 from './static/img/featureImage2.gif';
 
 export default class Communities extends Component {
     render() {
