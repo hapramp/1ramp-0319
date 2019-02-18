@@ -1,0 +1,35 @@
+.footerSection {
+    background-color: #3F72AF;
+    color: white;
+    padding-top: 56px;
+    padding-bottom: 72px;
+}
+
+.footerContainer {
+    max-width: 800px;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerGroupHeader {
+    margin-bottom: 32px;
+}
+
+.footerGroupItem {
+    margin-bottom: 16px;
+}
+
+.footerCr {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.54);
+}

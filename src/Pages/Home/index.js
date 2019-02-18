@@ -12,7 +12,7 @@ import Extras from './Components/Extras';
 class Home extends PureComponent {
     render() {
         return (
-            <main>
+            <div>
                 <Hero />
                 <About />
                 <Interests />
@@ -20,7 +20,7 @@ class Home extends PureComponent {
                 <Contests />
                 <CTA />
                 <Extras />
-            </main>
+            </div>
         );
     }
 }
