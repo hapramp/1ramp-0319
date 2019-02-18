@@ -1,26 +1,44 @@
 import React, {Component} from 'react';
 import style from './style.module.css';
 
-import featureImage2 from './static/img/featureImage2.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChrome, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 export default class Extras extends Component {
     render() {
         return (
             <section className={style.featureExtras}>
-                <div className="container">
+                <div className={`container ${style.extrasContainer}`}>
                     <div className={style.extrasWrapper}>
 
                         <div className={style.featureMeta}>
                             <h2 className={`${style.sectionTitle} text-color-primary`}>
-                                Communities, Imagine What You’ll Create Together
+                            Built on Steem Blockchain
                             </h2>
                         </div>
                         <div className={style.featureImage}>
                             <p className={style.extrasText}>
-                                Online or offline, communities need space to thrive. Discover, join, and create
-                                communities, where you can invite your friends, collaborate, and use it the way
-                                you want to.
+                            Steem is a social blockchain that grows communities and makes immediate revenue streams possible for users by rewarding them for sharing content.
                             </p>
+                            <a className={style.extrasLink} href="https://steem.com"><FontAwesomeIcon icon={faChrome} color="#3F72AF" />
+                            Steem</a>
+                        </div>
+
+                    </div>
+                    <div className={style.extrasWrapper}>
+
+                        <div className={style.featureMeta}>
+                            <h2 className={`${style.sectionTitle} text-color-primary`}>
+                            Open Source
+                            </h2>
+                        </div>
+                        <div className={style.featureImage}>
+                            <p className={style.extrasText}>
+                            1Ramp is open source. Contribute, suggest changes or track development on Github. 
+                            </p>
+                            <a className={style.extrasLink} href="https://github.com/hapramp"><FontAwesomeIcon icon={faGithub} color="#3F72AF" />
+                            Github</a>
                         </div>
 
                     </div>

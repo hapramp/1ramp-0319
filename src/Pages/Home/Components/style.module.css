@@ -134,13 +134,14 @@
 
 .extrasWrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 24px;
 }
 
 .extrasText {
     font-size: 20px;
     margin-top: 0;
-    margin-left: 48px;
 }
 
 .featureExtras .sectionTitle {
@@ -150,4 +151,18 @@
 .featureExtras {
     margin-top: 160px;
     margin-bottom: 160px;
+}
+
+.extrasContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.extrasLink {
+    font-size: 24px;
+    color: #3F72AF;
+}
+
+.extrasLink > svg {
+    margin-right: 8px;
 }
