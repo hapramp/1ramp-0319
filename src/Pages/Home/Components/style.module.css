@@ -1,14 +1,19 @@
+.sectionHero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heroWrapper {
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
 }
 
 .heroMeta {
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
 }
 
 .heroTitle {
@@ -29,6 +34,10 @@
 
 .heroCta >a:first-child {
     margin-right: 56px;
+}
+
+.heroImage img{
+    max-width: 550px;
 }
 
 .aboutWrapper {
@@ -72,6 +81,14 @@
 
 .featureSection {
     margin-top: 144px;
+}
+
+.featureMeta:nth-child(odd) {
+    margin-right: 24px;
+}
+
+.featureMeta:nth-child(even) {
+    margin-left: 24px;
 }
 
 .featureWrapper {
@@ -149,8 +166,8 @@
 }
 
 .featureExtras {
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .extrasContainer {
@@ -165,4 +182,96 @@
 
 .extrasLink > svg {
     margin-right: 8px;
+}
+
+@media screen and (max-width:1120px) {
+    .heroImage > img {
+        max-width: 400px;
+    }
+
+    .featureImage > img{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .heroWrapper {
+        text-align: center;
+    }
+
+    .heroImage {
+       display: none;
+    }
+
+    .heroMeta {
+        margin-right: 0;
+    }
+
+    .aboutDeco {
+        left: -64px;
+    }
+
+    .featureWrapper {
+        flex-direction: column;
+    }
+
+    .featureImage {
+        order: 1;
+        margin-bottom: 48px;
+    }
+
+    .featureMeta {
+        order: 2;
+        text-align: center;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .featureType {
+        display: inline-flex;
+    }
+
+    .extrasContainer {
+        flex-direction: column;
+    }
+
+    .sectionAbout {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .featureSection {
+        margin-top: 96px;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    .featureImage {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .featureImage img {
+        width: 100%;
+    }
+
+    .heroTitle {
+        font-size: 48px
+    }
+
+    .heroText {
+        font-size: 18px;
+    }
+
+    .heroCta {
+        font-size: 40px;
+        margin-top: 24px;
+    }
+
+    .sectionTitle {
+        font-size: 32px;
+        line-height: 1.3;
+    }
 }

@@ -8,7 +8,7 @@ import { faChrome, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 class Hero extends Component {
     render() {
         return (
-            <section>
+            <section className={style.sectionHero}>
                 <div className="container">
                     <div className={style.heroWrapper}>
                         <div className={style.heroMeta}>
@@ -19,7 +19,7 @@ class Hero extends Component {
                                 <a href=""><FontAwesomeIcon icon={faGooglePlay} color="#3F72AF" /></a>
                             </div>
                         </div>
-                        <div className="heroImage">
+                        <div className={style.heroImage}>
                             <img src={heroImage} alt="Hero Image"/>
                         </div>
                     </div>

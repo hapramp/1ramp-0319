@@ -13,11 +13,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footerGroup {
     display: flex;
     flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .footerGroupHeader {

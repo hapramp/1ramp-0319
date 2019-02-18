@@ -12,12 +12,12 @@ export default class Extras extends Component {
                 <div className={`container ${style.extrasContainer}`}>
                     <div className={style.extrasWrapper}>
 
-                        <div className={style.featureMeta}>
+                        <div className={style.extrasMeta}>
                             <h2 className={`${style.sectionTitle} text-color-primary`}>
                             Built on Steem Blockchain
                             </h2>
                         </div>
-                        <div className={style.featureImage}>
+                        <div className={style.extrasImage}>
                             <p className={style.extrasText}>
                             Steem is a social blockchain that grows communities and makes immediate revenue streams possible for users by rewarding them for sharing content.
                             </p>
@@ -28,12 +28,12 @@ export default class Extras extends Component {
                     </div>
                     <div className={style.extrasWrapper}>
 
-                        <div className={style.featureMeta}>
+                        <div className={style.extrasMeta}>
                             <h2 className={`${style.sectionTitle} text-color-primary`}>
                             Open Source
                             </h2>
                         </div>
-                        <div className={style.featureImage}>
+                        <div className={style.extrasImage}>
                             <p className={style.extrasText}>
                             1Ramp is open source. Contribute, suggest changes or track development on Github. 
                             </p>
