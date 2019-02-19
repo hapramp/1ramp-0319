@@ -12,8 +12,8 @@ export default class CTA extends Component {
             <div className={style.CTATitle}>Get on 1Ramp</div>
             <div className={style.CTAText}>Pick your interests, explore communities, and win contests.</div>
             <div className={style.CTAIcons}>
-                <a href=""><FontAwesomeIcon icon={faChrome} color="#FFF" /></a>
-                <a href=""><FontAwesomeIcon icon={faGooglePlay} color="#FFF" /></a>
+                <a href="https://bit.ly/1ramp-landing" target="_blank"><FontAwesomeIcon icon={faChrome} color="#FFF" /></a>
+                <a href="https://alpha.1ramp.io/" target="_blank"><FontAwesomeIcon icon={faGooglePlay} color="#FFF" /></a>
             </div>
         </div>
       </section>

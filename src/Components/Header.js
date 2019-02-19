@@ -11,12 +11,12 @@ const Header = () => {
         <header className={style.headerSection}>
             <nav className={style.headerWrapper}>
                 <div className={style.logoContainer}>
-                    <a href=""><img src={heroImage} alt="Brand Logo"/></a>
+                    <a href="/"><img src={heroImage} alt="Brand Logo"/></a>
                 </div>
                 <div className={style.navContainer}>
                     <span>Available on</span>
-                    <a href=""><FontAwesomeIcon icon={faChrome} color="#3F72AF" /></a>
-                    <a href=""><FontAwesomeIcon icon={faGooglePlay} color="#3F72AF" /></a>
+                    <a href="https://alpha.1ramp.io/" target="_blank"><FontAwesomeIcon icon={faChrome} color="#3F72AF" /></a>
+                    <a target="_blank" href="https://bit.ly/1ramp-landing"><FontAwesomeIcon icon={faGooglePlay} color="#3F72AF" /></a>
                 </div>
             </nav>
         </header>

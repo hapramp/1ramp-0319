@@ -21,7 +21,7 @@ export default class Extras extends Component {
                             <p className={style.extrasText}>
                             Steem is a social blockchain that grows communities and makes immediate revenue streams possible for users by rewarding them for sharing content.
                             </p>
-                            <a className={style.extrasLink} href="https://steem.com"><FontAwesomeIcon icon={faChrome} color="#3F72AF" />
+                            <a className={style.extrasLink} href="https://steem.com"  target="_blank"><FontAwesomeIcon icon={faChrome} color="#3F72AF" />
                             Steem</a>
                         </div>
 
@@ -37,7 +37,7 @@ export default class Extras extends Component {
                             <p className={style.extrasText}>
                             1Ramp is open source. Contribute, suggest changes or track development on Github. 
                             </p>
-                            <a className={style.extrasLink} href="https://github.com/hapramp"><FontAwesomeIcon icon={faGithub} color="#3F72AF" />
+                            <a className={style.extrasLink} href="https://github.com/hapramp" target="_blank"><FontAwesomeIcon icon={faGithub} color="#3F72AF" />
                             Github</a>
                         </div>
 

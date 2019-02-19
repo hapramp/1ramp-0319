@@ -27,8 +27,14 @@
     margin-bottom: 32px;
 }
 
-.footerGroupItem {
+a.footerGroupItem {
     margin-bottom: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+a.footerGroupItem:hover {
+    text-decoration: underline;
 }
 
 .footerCr {
