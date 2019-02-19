@@ -36,3 +36,48 @@
     padding-top: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.54);
 }
+
+.headerSection {
+    height: 64px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.headerWrapper {
+    width: 100vw;
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer a {
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.navContainer a:first-child {
+    margin-left: 16px;
+}
+
+@media screen and (max-width:1120px) {
+    .headerWrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .headerWrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .navContainer > span {
+        display: none;
+    }
+}

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './global.css';
 
 import Home from './Pages/Home/';
+import Header from './Components/Header';
 import Footer from './Components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -14,7 +15,8 @@ class App extends Component {
   render() {
     return (
       <main>
-        <Home/>
+        <Header />
+        <Home />
         <Footer />
       </main>
     );
