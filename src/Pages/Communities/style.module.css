@@ -1,0 +1,92 @@
+.featureSection {
+    margin-top: 144px;
+}
+
+.featureMeta:nth-child(odd) {
+    margin-right: 24px;
+}
+
+.featureMeta:nth-child(even) {
+    margin-left: 24px;
+}
+
+.featureWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featureText {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.featureType {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.featureTypeDeco {
+    height: 2px;
+    width: 64px;
+    background-color: black;
+    margin-right: 24px;
+}
+
+.sectionTitle {
+    font-size: 36px;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+}
+
+.featureImageHero {
+    transform: rotate(30deg);
+    transform-origin: center;
+}
+
+.featureImageHero img, .featureImage img {
+    max-width: 550px;
+}
+
+.listingSection {
+    margin-top: 96px;
+}
+
+.listItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 56px;
+}
+
+.listItem:hover{
+    text-decoration: underline;
+}
+
+.listItem img{
+    max-width: 120px;
+}
+
+.listItem span {
+    display: inline-flex;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 96px;
+    flex-wrap: wrap;
+}
