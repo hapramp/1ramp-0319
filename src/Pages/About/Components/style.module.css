@@ -95,3 +95,18 @@
     margin-left: 16px;
     margin-right: 16px;
 }
+
+.associatesSection {
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+.associatesContainer {
+    margin-top: 96px;
+}
+
+.associatesImg {
+    max-height: 120px;
+    width: auto;
+    margin-right: 24px;
+}

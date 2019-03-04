@@ -10,9 +10,13 @@ import memberAnkit from './static/img/ankit_hapramp.jpg'
 import memberMofid from './static/img/mofid_hapramp.jpg'
 import memberRajat from './static/img/rajat_hapramp.jpg'
 
+import huddle from './static/img/huddle.png';
+import nascomm from './static/img/nascomm_logo.png';
+import iiitv from './static/img/iiitv.png';
+
 const Team = () => {
     return (
-        <section className={style.TeamSection}>
+        <section className={style.associatesSection}>
             <div className="container">
                 <div className={style.featureWrapper}>
                     <div className={style.featureMeta}>
@@ -21,7 +25,9 @@ const Team = () => {
                             Associates
                         </div>
                         <div className={style.associatesContainer}>
-                        
+                            <img src={huddle} alt="" className={style.associatesImg} />
+                            <img src={nascomm} alt="" className={style.associatesImg} />
+                            <img src={iiitv} alt="" className={style.associatesImg} />
                         </div>
                     </div>
                 </div>
