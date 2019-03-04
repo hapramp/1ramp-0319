@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './global.css';
 
 import Home from './Pages/Home/';
+import About from './Pages/About/';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -16,7 +17,13 @@ class App extends Component {
     return (
       <main>
         <Header />
-        <Home />
+        <Router>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about/" exact component={About} />
+          </Switch>
+          {/* <Route path="/users/" component={Users} /> */}
+        </Router>
         <Footer />
       </main>
     );

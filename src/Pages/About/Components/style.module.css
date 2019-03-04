@@ -1,0 +1,97 @@
+.sectionHero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroMeta {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    justify-content: center;
+}
+
+.heroTitle {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.heroText {
+    font-size: 21px;
+    color: hsla(0, 0%, 0%, 0.7);
+    line-height: 30px;
+}
+
+.heroCta {
+    font-size: 64px;
+    margin-top: 48px;
+}
+
+.heroCta >a:first-child {
+    margin-right: 56px;
+}
+
+.heroImage img{
+    max-width: 550px;
+}
+
+.featureType {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.featureTypeDeco {
+    height: 2px;
+    width: 64px;
+    background-color: black;
+    margin-right: 24px;
+}
+
+.teamContainer {
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memberContainer {
+    text-align: center;
+    flex-basis: 33%;
+    margin-bottom: 96px;
+}
+
+.memberAvatar {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.memberName {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.memberDesignation {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.memberLinkContainer {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.memberLinkContainer a {
+    margin-left: 16px;
+    margin-right: 16px;
+}

@@ -16,7 +16,7 @@ export default class Communities extends Component {
                             <div className={style.featureType}>
                                 <div className={style.featureTypeDeco}></div>
                                     Communities
-                                </div>
+                            </div>
                             <h2 className={`${style.sectionTitle} text-color-primary`}>
                                 Communities, Imagine What You’ll Create Together
                             </h2>
