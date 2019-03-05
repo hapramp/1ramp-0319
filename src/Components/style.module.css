@@ -61,12 +61,41 @@ a.footerGroupItem:hover {
     justify-content: space-between;
 }
 
-.navContainer a {
+.navContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navGroup {
+    border-right: 1px solid #000000b3;
+    padding-right: 24px;
+    margin-right: 24px;
+}
+
+.navGroup a {
+    margin-right: 16px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navGroup a.active {
+    color: #3F72AF;
+}
+
+.navGroup a:hover {
+    text-decoration: underline;
+}
+
+.navGroup a:last-child {
+    margin-right: 0;
+}
+
+.navCta a {
     font-size: 24px;
     margin-left: 24px;
 }
 
-.navContainer a:first-child {
+.navCta a:first-child {
     margin-left: 16px;
 }
 

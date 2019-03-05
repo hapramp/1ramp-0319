@@ -17,3 +17,7 @@
 .text-color-white {
   color: white;
 }
+
+a.navActive {
+  color: #3F72AF !important;
+}

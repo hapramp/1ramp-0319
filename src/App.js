@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './global.css';
 
 import Header from './Components/Header';
@@ -17,17 +17,17 @@ library.add(faChrome, faGooglePlay);
 class App extends Component {
   render() {
     return (
-      <main>
-        <Header />
-        <Router>
+      <Router>
+        <main>
+          <Header />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about/" exact component={About} />
             <Route path="/communities/" exact component={Communities} />
           </Switch>
-        </Router>
-        <Footer />
+          <Footer />
       </main>
+      </Router>
     );
   }
 }
