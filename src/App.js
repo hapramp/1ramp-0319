@@ -17,7 +17,7 @@ library.add(faChrome, faGooglePlay);
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/1ramp.io">
         <main>
           <Header />
           <Switch>
