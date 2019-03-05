@@ -17,7 +17,7 @@ export default class Contests extends Component {
                             Win Contests, Finish Challenges Or Host Your Own
                             </h2>
                             <p className={style.featureText}>
-                            Participate in exciting contests and win prizes or take challenges. Anyone can host their own contests and challenges and invite their friends to compete and have fun.
+                            Participate in exciting contests and win prizes. Anyone can host their own contests and challenges and invite their friends to compete and have fun.
                             </p>
                         </div>
                         <div className={style.featureImage}>

@@ -13,7 +13,7 @@ const WeAreOne = () => {
                 #WeAreOne
                 </h2>
                 <p className={style.aboutText}>
-                #WeAreOne is our initiative to give all Steem communities a dedicated space. If your community belongs to Art, Design, Film, Writing, Photography, Travel or any other creative domain, you can list it on 1Ramp. Your community’s content and hashtag will get featured across the 1Ramp platform.
+                #WeAreOne is our initiative to give all Steem communities a dedicated space. If your community belongs to Art, Design, Film, Writing, Photography, Travel or other similar domain, you can list it on 1Ramp. Your community’s content will get featured across the 1Ramp platform.
                 </p>
                 <div className={style.aboutDeco}></div>
             </div>

@@ -13,7 +13,6 @@ const Header = () => {
     const [mobileNavStyle, setMobileNavStyle] = useState({width:0});
 
     useEffect(() => {
-        console.log("From Effect");
         if(navToggle)
             setMobileNavStyle({width:"100vw", transition: "width 0"});
         else
