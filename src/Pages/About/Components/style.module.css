@@ -62,6 +62,7 @@
     margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .memberContainer {
@@ -107,6 +108,49 @@
 
 .associatesImg {
     max-height: 120px;
+    max-width: 100%;
     width: auto;
     margin-right: 24px;
+}
+
+@media screen and (max-width:1120px) {
+    .heroImage > img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .heroImage {
+       display: none;
+    }
+
+    .heroMeta {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width:807px) {
+    .memberContainer {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width:500px)  {
+
+    .heroText {
+        font-size: 16px;
+    }
+
+    .heroCta {
+        font-size: 40px;
+        margin-top: 24px;
+    }
+
+    .sectionTitle {
+        font-size: 32px;
+        line-height: 1.3;
+    }
 }

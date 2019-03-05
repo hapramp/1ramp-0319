@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from '../style.module.css'
+import style from './style.module.css'
 
 import featureImage2 from '../../Home/Components/static/img/featureImage2.gif';
 

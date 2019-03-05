@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from '../style.module.css'
+import style from './style.module.css'
 
 import recordpool from './static/img/recordpool.png';
 import curie from './static/img/curie.jpeg';
