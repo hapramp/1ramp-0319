@@ -15,8 +15,8 @@ class Hero extends Component {
                             <h1 className={`${style.heroTitle} text-color-primary`}>Social media that pays you</h1>
                             <p className={style.heroText}>Imagine if you get paid for ‘likes’. Earn for the entertainment, possibilities, and art you create on the Internet.</p>
                             <div className={style.heroCta}>
-                                <a href="https://bit.ly/1ramp-landing" target="_blank"><FontAwesomeIcon icon={faChrome} color="#3F72AF" /></a>
-                                <a href="https://alpha.1ramp.io/" target="_blank"><FontAwesomeIcon icon={faGooglePlay} color="#3F72AF" /></a>
+                                <a href="https://alpha.1ramp.io/" target="_blank"><FontAwesomeIcon icon={faChrome} color="#3F72AF" /></a>
+                                <a href="https://bit.ly/1ramp-landing" target="_blank"><FontAwesomeIcon icon={faGooglePlay} color="#3F72AF" /></a>
                             </div>
                         </div>
                         <div className={style.heroImage}>

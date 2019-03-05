@@ -59,6 +59,7 @@ a.footerGroupItem:hover {
     padding-right: 72px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navContainer {
@@ -99,6 +100,92 @@ a.footerGroupItem:hover {
     margin-left: 16px;
 }
 
+.mobileNav {
+    height: 64px;
+    position: fixed;
+    background-color: #3f71af;
+    padding-left: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    left: -40px;
+    transition: width 0.3s ease-in-out;
+}
+
+.mobileNavGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobileNavGroup a {
+    line-height: 48px;
+    color: white;
+}
+
+.logoContainer {
+    display: flex;
+    margin-top: 6px;
+}
+
+.navMenu {
+    flex-direction: column;
+    margin-right: 24px;
+    cursor: pointer;
+    display: none;
+    margin-top: 2px;
+}
+
+.navMenu span {
+    display: inline-block;
+    height: 1px;
+    width: 32px;
+    background-color: black;
+    margin-bottom: 8px;
+}
+
+.navMenu span:last-child {
+    margin-bottom: 0;
+}
+
+.navClose {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.navClose span {
+    display: inline-block;
+    height: 1px;
+    width: 32px;
+    background-color: white;
+    transform-origin: center;
+}
+
+.navClose span:first-child {
+    transform: rotateZ(45deg);
+}
+
+.navClose span:last-child {
+    transform: rotateZ(-45deg);
+}
+
+.mobileNavGroup a {
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.mobileNavGroup a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width:1120px) {
     .headerWrapper {
         padding-left: 40px;
@@ -114,5 +201,15 @@ a.footerGroupItem:hover {
 
     .navContainer > span {
         display: none;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .navGroup {
+        display: none;
+    }
+
+    .navMenu {
+        display: flex;
     }
 }

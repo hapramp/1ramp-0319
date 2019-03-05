@@ -22,7 +22,7 @@ const Team = () => {
                     <div className={style.featureMeta}>
                         <div className={style.featureType}>
                             <div className={style.featureTypeDeco}></div>
-                            Associates
+                            Associated with
                         </div>
                         <div className={style.associatesContainer}>
                             <a href="http://huddle.work/" target="__blank"><img src={huddle} alt="" className={style.associatesImg} /></a>
