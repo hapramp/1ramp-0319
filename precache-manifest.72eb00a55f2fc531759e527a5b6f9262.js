@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/1ramp.io/static/media/featureImage1.e02e9520.gif"
   },
   {
-    "revision": "c308574d127446e3c6d9",
+    "revision": "616c0af845a942f87121",
     "url": "/1ramp.io/static/css/main.caa13c93.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/1ramp.io/static/media/heroImage.abe37fcd.gif"
   },
   {
-    "revision": "c308574d127446e3c6d9",
-    "url": "/1ramp.io/static/js/main.c308574d.chunk.js"
+    "revision": "616c0af845a942f87121",
+    "url": "/1ramp.io/static/js/main.616c0af8.chunk.js"
   },
   {
     "revision": "2d384fe048baf158375dbd96e55ca796",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/1ramp.io/static/css/2.109e1cf1.chunk.css"
   },
   {
-    "revision": "b10acdd8c739b619779ac9181496c3c2",
+    "revision": "a73446c26536a3df42a912db08b452ed",
     "url": "/1ramp.io/index.html"
   }
 ];
