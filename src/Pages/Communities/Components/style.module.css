@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .featureText {
@@ -29,6 +30,8 @@
     font-weight: 700;
     display: flex;
     align-items: center;
+    align-self: flex-start;
+    display: flex;
 }
 
 .featureTypeDeco {
@@ -89,4 +92,56 @@
     flex-direction: row;
     margin-top: 96px;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1120px) {
+    .featureImage > img, .featureImageHero > img{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .featureWrapper {
+        flex-direction: column;
+    }
+
+    .featureImage, .featureImageHero {
+        order: 1;
+        margin-bottom: 48px;
+    }
+
+    .featureMeta {
+        order: 2;
+        text-align: center;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .featureSection {
+        margin-top: 96px;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    .featureImage, .featureImageHero {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .featureImage img, .featureImageHero img {
+        width: 100%;
+    }
+
+    .sectionTitle {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .featureType {
+        font-size: 18px;
+    }
+
 }
