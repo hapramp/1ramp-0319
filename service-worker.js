@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hapramp.github.io/1ramp.io/precache-manifest.2f174ee91a8b5aea6fc8bd582eaede17.js"
+  "/1ramp.io/precache-manifest.527540918b15c2a40dc015ba889e7532.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hapramp.github.io/1ramp.io/index.html", {
+workbox.routing.registerNavigationRoute("/1ramp.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
