@@ -34,7 +34,7 @@ const Header = () => {
                 </div>
                 <div className={style.navContainer}>
                     <div className={style.navGroup}>
-                        <NavLink to='/' activeClassName="navActive">Home</NavLink>
+                        <NavLink exact to='/' activeClassName="navActive">Home</NavLink>
                         <NavLink to='/about' activeClassName="navActive">About</NavLink>
                         <NavLink to='/communities' activeClassName="navActive">Communities</NavLink>
                     </div>
