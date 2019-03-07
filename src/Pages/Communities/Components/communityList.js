@@ -77,6 +77,11 @@ const CommunityListing = () => {
                                 <span>#ecotrain</span>
                             </a>
 
+                            <a href="https://alpha.1ramp.io/community/socalsteemit" className={style.listItem } target="__blank">
+                                <img src={socalsteemit} alt=""/>
+                                <span>#socalsteemit</span>
+                            </a>
+
                         </div>
                     </div>
                 </div>
