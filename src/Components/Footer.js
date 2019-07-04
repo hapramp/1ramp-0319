@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom'
 
 import style from './style.module.css';
 
@@ -10,9 +11,10 @@ export default class Footer extends Component {
             <div className={style.footerWrapper}>
                 <div className={style.footerGroup}>
                     <h3 className={style.footerGroupHeader}>Links</h3>
-                    <a href="https://1ramp.io/" className={style.footerGroupItem} target="_blank">Home</a>
-                    <a href="https://1ramp.io/about.html" className={style.footerGroupItem} target="_blank">About</a>
-                    <a href="https://1ramp.io/faq.html" className={style.footerGroupItem} target="_blank">FAQs</a>
+                    <NavLink exact to='/' className={style.footerGroupItem} >Home</NavLink>
+                    <NavLink to='/about' className={style.footerGroupItem} >About</NavLink>
+                    <NavLink to='/communities' className={style.footerGroupItem} >Communities</NavLink>
+                
                 </div>
                 <div className={style.footerGroup}>
                     <h3 className={style.footerGroupHeader}>Social</h3>
@@ -33,7 +35,7 @@ export default class Footer extends Component {
                 </div>                
             </div>
             <div className={style.footerCr}>
-            Copyright 2018 | <a className="text-color-white" href="">Terms</a>
+            Copyright 2018 
             </div>
         </div>
       </footer>
