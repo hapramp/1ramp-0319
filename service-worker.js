@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/onsteem/precache-manifest.38c1cd7e69732c320316166a0082eaac.js"
+  "/onsteem/precache-manifest.31a2e08e7968ffac71faa88698948851.js"
 );
 
 workbox.clientsClaim();
