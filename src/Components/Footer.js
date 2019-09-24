@@ -30,12 +30,11 @@ export default class Footer extends Component {
                 </div>
                 <div className={style.footerGroup}>
                     <h3 className={style.footerGroupHeader}>Contact</h3>
-                    <a href="mailto:hi@1ramp.io" className={style.footerGroupItem} target="_blank">hi@1ramp.io</a>
-                    <a href="https://discord.gg/PkgCv8j" className={style.footerGroupItem} target="_blank">Discord</a>
+                    <a href="mailto:hi@hapramp.com" className={style.footerGroupItem} target="_blank">hi@hapramp.com</a>
                 </div>                
             </div>
             <div className={style.footerCr}>
-            Copyright 2018 
+            By <a className="text-color-white" href="http://hapramp.com" target="_blank">Hapramp Studio</a> 
             </div>
         </div>
       </footer>

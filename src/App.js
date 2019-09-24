@@ -17,7 +17,7 @@ library.add(faChrome, faGooglePlay);
 class App extends Component {
   render() {
     return (
-      <Router basename="/onsteem">
+      <Router>
         <main>
           <Header />
           <Switch>
