@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/ankit_hapramp.958a01f7.jpg"
   },
   {
-    "revision": "9ac5ae39d109dc262a5f",
+    "revision": "6e3c1c9c227b98bd3162",
     "url": "/static/css/main.d3efa50a.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/pratyush_1_hapramp.5169dcad.jpg"
   },
   {
-    "revision": "9ac5ae39d109dc262a5f",
-    "url": "/static/js/main.9ac5ae39.chunk.js"
+    "revision": "6e3c1c9c227b98bd3162",
+    "url": "/static/js/main.6e3c1c9c.chunk.js"
   },
   {
     "revision": "ed268187a3f1fa3f9e5d695e83023004",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.eaf41d24.chunk.css"
   },
   {
-    "revision": "acb88fda8395d1ed9e5c3a6e51637288",
+    "revision": "d8d36c01a0355629c718bdb9d4c248fb",
     "url": "/index.html"
   }
 ];
