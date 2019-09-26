@@ -12,6 +12,8 @@ import Communities from './Pages/Communities/';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChrome, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 
+import ScrollToTop from './ScrollToTop';
+
 library.add(faChrome, faGooglePlay);
 
 class App extends Component {
@@ -20,11 +22,13 @@ class App extends Component {
       <Router>
         <main>
           <Header />
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about/" exact component={About} />
-            <Route path="/communities/" exact component={Communities} />
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/about/" exact component={About} />
+              <Route path="/communities/" exact component={Communities} />
+            </Switch>
+          </ScrollToTop> 
           <Footer />
       </main>
       </Router>
