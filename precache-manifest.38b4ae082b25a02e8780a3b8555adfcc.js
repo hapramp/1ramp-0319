@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/ankit_hapramp.958a01f7.jpg"
   },
   {
-    "revision": "d4f921316b092a2e8f07",
-    "url": "/static/css/main.d3efa50a.chunk.css"
+    "revision": "01560cc9991f300c8ca6",
+    "url": "/static/css/main.7e10ceea.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/ecotrain.fdac574b.png"
   },
   {
-    "revision": "5fbe55609c24b1232e46",
-    "url": "/static/js/2.5fbe5560.chunk.js"
+    "revision": "c22298f3d0a95bfed68d",
+    "url": "/static/js/2.c22298f3.chunk.js"
   },
   {
     "revision": "7afaefae370f1a52596acc413ae0b306",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/pratyush_1_hapramp.5169dcad.jpg"
   },
   {
-    "revision": "d4f921316b092a2e8f07",
-    "url": "/static/js/main.d4f92131.chunk.js"
+    "revision": "01560cc9991f300c8ca6",
+    "url": "/static/js/main.01560cc9.chunk.js"
   },
   {
     "revision": "ed268187a3f1fa3f9e5d695e83023004",
@@ -88,11 +88,11 @@ self.__precacheManifest = [
     "url": "/static/media/photomag.677b91d0.png"
   },
   {
-    "revision": "5fbe55609c24b1232e46",
-    "url": "/static/css/2.eaf41d24.chunk.css"
+    "revision": "c22298f3d0a95bfed68d",
+    "url": "/static/css/2.78c55d11.chunk.css"
   },
   {
-    "revision": "6c0b6b99b4513a9cfa7b2cbe405c6866",
+    "revision": "739b7e390517399b1e5296e1989612c9",
     "url": "/index.html"
   }
 ];
